@@ -1,0 +1,25 @@
+{
+  "name": "natasha-project0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "welcome.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1902-feb04-java/natasha-project0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1902-feb04-java/natasha-project0/issues"
+  },
+  "homepage": "https://github.com/1902-feb04-java/natasha-project0#readme",
+  "devDependencies": {
+    "@angular/cli": "^7.3.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
