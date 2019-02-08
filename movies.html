@@ -9,20 +9,15 @@
     <title>Search Movies</title>
 
     <!-- Stylesheets -->
-    <link href="bootstrap-4.2.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-4.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="movies.css" rel="stylesheet">
     <link href="welcome.css" rel="stylesheet">
     <!-- <link rel="icon" href="../../favicon.ico"> -->
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="bootstrap-4.2.1/js/carousel.js"></script>
-    <script src="bootstrap-4.2.1/js/util.js"></script>
-    <script>
-            $(document).ready(function () {
-                 $('#myCarousel').carousel();
-             });
-    </script>
+    <script src="bootstrap-4.2.1/dist/js/bootstrap.js"></script>
+    <script src="bootstrap-4.2.1/js/dist/util.js"></script>
 
   </head>
   <body>
@@ -60,9 +55,9 @@
           <img class="second-slide" src="#" alt="Second slide">
           <div class="container">
             <div class="carousel-caption d-none d-md-block">
-              <h1>Watch top rated.</h1>
+              <h1>Write a review.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <p><a class="btn btn-lg btn-secondary" href="#" role="button">Write review.</a></p>
             </div>
           </div>
         </div>
@@ -70,9 +65,9 @@
           <img class="third-slide" src="#" alt="Third slide">
           <div class="container">
             <div class="carousel-caption d-none d-md-block text-right">
-              <h1>One more for good measure.</h1>
+              <h1>Rate your favorites.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <p><a class="btn btn-lg btn-secondary" href="#" role="button">Rate movies.</a></p>
             </div>
           </div>
         </div>
@@ -124,7 +119,8 @@
       <div id="popularSection" class="row featurette">
         <div class="col-md-12">
           <h2 class="featurette-heading">Popular<span class="text-muted">Movies</span></h2>
-
+            <div class="row">
+            <div class="col-md-12">
                 <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
 
                         <!--Controls-->
@@ -230,8 +226,10 @@
                           </div>
                       
                         </div>
-                      
-                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
       </div>
 
       <hr class="featurette-divider">
